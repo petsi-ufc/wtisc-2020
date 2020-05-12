@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html>
-  <head>
 
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
+<head>
+
+  {% if site.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% endif %}
+  <meta charset="UTF-8">
+
+  {% seo %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+  <meta property="og:title" content="{{page.title}}" />
+  <meta property="og:description" content="O Workshop de Tecnologia da Informação do Sertão Central (WTISC) é um evento da Universidade Federal do Ceará Campus Quixadá, realizado anualmente no primeiro semestre do ano, pelo grupo PET - Sistemas de Informação." />
+  <meta property="og:url"
+    content="https://www.instagram.com/petsi.ufc/" />
+  <meta property="og:image"
+    content="https://instagram.ffor4-2.fna.fbcdn.net/v/t51.2885-19/s150x150/96047601_542992833043190_7220272420408524800_n.jpg?_nc_ht=instagram.ffor4-2.fna.fbcdn.net&_nc_ohc=U_nXs8uHVSEAX9e30nx&oh=1477fce4cf263088186b2a6f84503e9e&oe=5EE5E0D4" />
+
+</head>
+
+<body>
+
+  <header class="page-header" role="banner">
+
+    <!-- <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
+    <img src="{{ page.logo | default: site.logo }}"
+      alt="{{ page.title | default: site.title | default: site.github.repository_name }}" class="project-name"
+      style=" max-width: 100%;" />
+    <h2 class="project-tagline">
+      {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+
+    <a href="{{ site.baseurl}}" class="btn">Home</a>
+    <a href="{{ site.baseurl}}/minicursos" class="btn">Minicursos</a>
+    <a href="{{ site.baseurl}}/palestras" class="btn">Palestras</a>
+
+    {% if site.show_downloads %}
+    <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+    <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
     {% endif %}
-    <meta charset="UTF-8">
+  </header>
 
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-      
-    <meta name="og:description" content="O Workshop de Tecnologia da Informação do Sertão Central (WTISC) é um evento da Universidade Federal do Ceará Campus Quixadá, realizado anualmente no primeiro semestre do ano, pelo grupo PET - Sistemas de Informação.">
-    <meta property="og:image" content="./assets/images/logo.png">
-
-  </head>
-  <body>
-
-    <header class="page-header" role="banner">
-
-      <!-- <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
-      <img src="{{ page.logo | default: site.logo }}" alt="{{ page.title | default: site.title | default: site.github.repository_name }}" class="project-name" style=" max-width: 100%;"/>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      
-      <a href="{{ site.baseurl}}" class="btn">Home</a>
-      <a href="{{ site.baseurl}}/minicursos" class="btn">Minicursos</a>
-      <a href="{{ site.baseurl}}/palestras" class="btn">Palestras</a>
-
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-    </header>
-
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+  <main id="content" class="main-content" role="main">
+    {{ content }}
 
 
-       <footer class="site-footer">
-        <a href="https://www.instagram.com/petsi.ufc/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-2x"></i></a>
-      </footer>
+    <footer class="site-footer">
+      <a href="https://www.instagram.com/petsi.ufc/" target="_blank" rel="noopener noreferrer"><i
+          class="fab fa-instagram fa-2x"></i></a>
+    </footer>
 
-      <footer class="site-footer">
-        <span class="site-footer-credits">Programa de Educação Tutorial - Sistemas de Informação &copy; 2020.</span> 
-      </footer>
-    </main>
-  </body>
+    <footer class="site-footer">
+      <span class="site-footer-credits">Programa de Educação Tutorial - Sistemas de Informação &copy; 2020.</span>
+    </footer>
+  </main>
+</body>
 
 </html>
