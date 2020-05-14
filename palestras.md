@@ -8,7 +8,12 @@ title: Palestras
 {% assign sorted_pages = site.pages | sort:"date" %}
 {% for page in sorted_pages %}
 {% if page.categories contains 'palestra' %}
-<div class="item"><h3><a href="{{ page.path}}">{{page.date | date: "%m/%d"}} | {{ page.title }}</a></h3></div>
+{% if page.date < "now" %}
+<div class="item"><h3><a href="{{ page.path}}">{{page.date | date: "%d/%m"}} | {{ page.title }}</a></h3></div>
     {{page.description}}
+{% else %}
+<div class="item"><s><h3><a href="{{ page.path}}">{{page.date | date: "%d/%m"}} | {{ page.title }}</a></h3></s></div>
+    {{page.description}}
+{% endif %}
 {% endif %}
 {% endfor %}
