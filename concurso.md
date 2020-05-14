@@ -7,7 +7,7 @@ description:  'Concurso de Desenho: Saudades que eu tenho...'
 
 # Concurso de Desenho: Saudades que eu tenho...
 
-<img src="/assets/images/c1.jpeg" alt="concurso" width="400">
+<img src="./assets/images/c1.jpeg" alt="concurso" width="400">
 
 Orgulhosamente o PET-SI apresenta o concurso de desenho: "Saudades que eu tenho (...)". Como era sua realidade antes da pandemia? Qual era sua rotina e seus gostos? Como era seu sorriso? Como era a sensação de estar com amigos? 
 
