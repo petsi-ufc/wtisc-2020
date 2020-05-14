@@ -1,12 +1,13 @@
 ---
 layout: default
-title: Concurso de Desenho 
+title: Concurso de Desenho  
+path: palestras/trabalhar-remotamente
 description:  'Concurso de Desenho: Saudades que eu tenho...'
 ---
 
 # Concurso de Desenho: Saudades que eu tenho...
 
-<img src="../assets/images/c1.jpeg" alt="concurso" width="400">
+<img src="/assets/images/c1.jpeg" alt="concurso" width="400">
 
 Orgulhosamente o PET-SI apresenta o concurso de desenho: "Saudades que eu tenho (...)". Como era sua realidade antes da pandemia? Qual era sua rotina e seus gostos? Como era seu sorriso? Como era a sensação de estar com amigos? 
 
@@ -24,4 +25,4 @@ O concurso tem como objetivo estimular as habilidades técnicas e emocionais dos
 
 ## Confira o regulamento e não deixe de participar
 
-<i class="fas fa-clipboard-list" style="color: #159957"></i> [**Regulamento do Concurso**](/concurso/regulamento-concurso)
+<i class="fas fa-clipboard-list" style="color: #159957"></i> [**Regulamento do Concurso**]({{ site.baseurl}}/concurso/regulamento-concurso)
