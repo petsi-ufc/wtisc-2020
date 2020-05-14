@@ -13,7 +13,7 @@ title: Palestras
     {{page.description}}
 {% else %}
 <div class="item"><s><h3><a href="{{ page.path}}">{{page.date | date: "%d/%m"}} | {{ page.title }}</a></h3></s></div>
-    Esta palestra já passou, mas você pode ver ela na integra no nosso <a href="[{{ page.path}}](https://www.youtube.com/channel/UCnktWER26p3YdGJMZULGPnw)">canal do YouTube</a>
+> Esta palestra já passou, mas você pode ver ela na integra no nosso [canal do YouTube](https://www.youtube.com/channel/UCnktWER26p3YdGJMZULGPnw) 
 {% endif %}
 {% endif %}
 {% endfor %}
