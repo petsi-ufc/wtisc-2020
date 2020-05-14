@@ -57,7 +57,7 @@ O WTISC é evento público realizado desde 2008, e consiste na oferta de palestr
     {{page.description}}
 {% else %}
 <div class="item"><s><h3><a href="{{ page.path}}">{{page.date | date: "%d/%m"}} | {{ page.title }}</a></h3></s></div>
-    {{page.description}}
+    Esta palestra já passou, mas você pode ver ela na integra no nosso <a href="[{{ page.path}}](https://www.youtube.com/channel/UCnktWER26p3YdGJMZULGPnw)">canal do YouTube</a>
 {% endif %}
 {% endif %}
 {% endfor %}
