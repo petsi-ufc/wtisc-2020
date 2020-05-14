@@ -5,7 +5,7 @@ logo: ../assets/images/logo.png
 categories: [palestra]
 path: palestras/erro-o-melhor-amigo-do-desenvolvedor
 description: 14 de Maio de 2020 às 18:00 horas
-data: 2019-05-14T18:00:00Z
+data: 2019-05-14
 ---
 
 
