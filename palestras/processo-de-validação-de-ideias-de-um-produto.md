@@ -5,7 +5,7 @@ logo: ../assets/images/logo.png
 categories: [palestra]
 path: palestras/processo-de-validação-de-ideias-de-um-produto
 description: 22 de Maio de 2020 às 16:00 horas
-date: 2019-05-15T
+date: 2019-05-22T
 passou: false
 ---
 
