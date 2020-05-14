@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Concurso de Desenho
-logo: ../assets/images/logo.png 
+logo: ../assets/images/logo.png
 description:  'Regulamento - Concurso de Desenho: Saudades que eu tenho...'
 ---
 
@@ -15,16 +15,22 @@ O desenho deve abordar o tema “Saudades que eu tenho...”, retratando lembran
 O concurso está disponível para qualquer pessoa que deseje participar, desde que esteja seguindo o perfil do PET - Sistemas de informação no Instagram: https://www.instagram.com/petsi.ufc/
 
 # 4 – DA INSCRIÇÃO E DOS PRAZOS
-## 4.1 - A inscrição será gratuita;
-## 4.2 - O prazo para inscrição é até o dia 22 de Maio de 2020;
-## 4.3 - O desenho deve ser enviado por meio de formulário eletrônico no ato da inscrição.
-## 4.4 - Sob nenhuma justificativa serão aceitos desenhos após o prazo de inscrição;
-## 4.5 - Os inscritos possuem a total liberdade em seus desenhos podendo ser de qualquer modalidade artística e utilizar quaisquer materiais.
-Exemplos:
-- Desenhos realistas utilizando grãos de arroz;
-- Caricaturas utilizando aquarela;
-- Croquis utilizando o bordado;
-- Ilustrações utilizando o Paint;
+
+4.1 - A inscrição será gratuita;
+
+4.2 - O prazo para inscrição é até o dia 22 de Maio de 2020;
+
+4.3 - O desenho deve ser enviado por meio de formulário eletrônico no ato da inscrição.
+
+4.4 - Sob nenhuma justificativa serão aceitos desenhos após o prazo de inscrição;
+
+4.5 - Os inscritos possuem a total liberdade em seus desenhos podendo ser de qualquer modalidade artística e utilizar quaisquer materiais.
+
+- Exemplos:
+  - Desenhos realistas utilizando grãos de arroz;
+  - Caricaturas utilizando aquarela;
+  - Croquis utilizando o bordado;
+  - Ilustrações utilizando o Paint;
 
 4.6 - O desenho precisa ser assinado pelo autor.
 
