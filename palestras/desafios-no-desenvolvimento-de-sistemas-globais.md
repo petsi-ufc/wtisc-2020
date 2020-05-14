@@ -6,7 +6,6 @@ categories: [palestra]
 path: palestras/desafios-no-desenvolvimento-de-sistemas-globais
 description: 13 de Maio de 2020 às 17:00 horas
 date: 2019-05-13T
-order: 0
 passou: true
 ---
 
