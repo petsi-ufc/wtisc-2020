@@ -1,6 +1,7 @@
 ---
 layout: default
 title: WTISC - 2020
+description:  11 até 22 de maio de 2020
 ---
 # Sobre
 
@@ -11,6 +12,8 @@ O objetivo do evento é promover e difundir o conhecimento sobre as diversas ár
 O WTISC é evento público realizado desde 2008, e consiste na oferta de palestras, minicursos, mesa redonda e hackathon. Buscando apresentar aos alunos/participantes um pouco da realidade do mercado de trabalho.
 
 # Programação
+
+De 11 até 22 de maio de 2020
 
 ## Minicursos
 
@@ -57,7 +60,7 @@ O WTISC é evento público realizado desde 2008, e consiste na oferta de palestr
     {{page.description}}
 {% else %}
 <div class="item"><s><h3><a href="{{ page.path}}">{{page.date | date: "%d/%m"}} | {{ page.title }}</a></h3></s></div>
-> Esta palestra já passou, mas você pode ver ela na integra no nosso [canal do YouTube](https://www.youtube.com/channel/UCnktWER26p3YdGJMZULGPnw) 
+> Esta palestra já passou, mas você pode ver ela na íntegra no nosso [canal do YouTube](https://www.youtube.com/channel/UCnktWER26p3YdGJMZULGPnw) 
 {% endif %}
 {% endif %}
 {% endfor %}

@@ -10,9 +10,9 @@ passou: false
 ---
 
 
-# Palestra - Análise de dados e Machine Learning em Saúde
+# Palestra - Processo de validação de ideias de um produto
 
-<img src="../assets/images/p3.jpeg" alt="palestra 1" width="400">
+<img src="../assets/images/p4.jpeg" alt="palestra 1" width="400">
   
 <i class="fa fa-calendar-check-o" aria-hidden="true" style="color: #159957"></i> **22 de Maio de 2020**
 
