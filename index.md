@@ -32,17 +32,17 @@ De 11 até 22 de maio de 2020
   <tbody>
     <tr>
       <th scope="row">14:00-16:00</th>
-      <td class="table-react" onclick="location.href = 'minicursos/react'">React</td>
-      <td class="table-react" onclick="location.href = 'minicursos/react'">React</td>
-      <td class="table-flutter" onclick="location.href = 'minicursos/flutter'">Flutter</td>
-      <td class="table-flutter" onclick="location.href = 'minicursos/flutter'">Flutter</td>
+      <td class="table-react" onclick="location.href = 'minicursos/react'">React <i class="fas fa-check-double"></i></td>
+      <td class="table-react" onclick="location.href = 'minicursos/react'">React <i class="fas fa-check-double"></i></td>
+      <td class="table-flutter" onclick="location.href = 'minicursos/flutter'">Flutter <i class="fas fa-check-double"></i></td>
+      <td class="table-flutter" onclick="location.href = 'minicursos/flutter'">Flutter <i class="fas fa-check-double"></i></td>
     </tr>
     <tr>
       <th scope="row">16:00-17:00</th>
-      <td class="table-cafe"  onclick="location.href = 'minicursos/cafe-com-docker'">Café com Docker</td>
-      <td class="table-cafe"  onclick="location.href = 'minicursos/cafe-com-docker'">Café com Docker</td>
-      <td class="table-cafe"  onclick="location.href = 'minicursos/cafe-com-docker'">Café com Docker</td>
-      <td class="table-cafe"  onclick="location.href = 'minicursos/cafe-com-docker'">Café com Docker</td>
+      <td class="table-cafe"  onclick="location.href = 'minicursos/cafe-com-docker'">Café com Docker <i class="fas fa-check-double"></i></td>
+      <td class="table-cafe"  onclick="location.href = 'minicursos/cafe-com-docker'">Café com Docker <i class="fas fa-check-double"></i></td>
+      <td class="table-cafe"  onclick="location.href = 'minicursos/cafe-com-docker'">Café com Docker <i class="fas fa-check-double"></i></td>
+      <td class="table-cafe"  onclick="location.href = 'minicursos/cafe-com-docker'">Café com Docker <i class="fas fa-check-double"></i></td>
     </tr>
   
   </tbody>
